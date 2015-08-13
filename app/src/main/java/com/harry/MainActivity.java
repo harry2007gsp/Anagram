@@ -13,8 +13,10 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("test", String.valueOf(Anagram.isAnagram1("word", "wrdo")));
+//        Log.d("test", String.valueOf(Utility.isAnagram1("word", "wrdo")));
+        Log.d("test", String.valueOf(Utility.firstNonRepeatingCharacter("daxxyananda")));
+
     }
 
-
+///
 }
